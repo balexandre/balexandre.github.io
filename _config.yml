@@ -84,3 +84,7 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+
+# Jekyll skips dot-folders; Tesla's Fleet API reads our public key from /.well-known/appspecific/
+include:
+  - .well-known
